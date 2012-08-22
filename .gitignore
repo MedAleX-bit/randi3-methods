@@ -1,0 +1,9 @@
+randi3-method-complete/*
+randi3-method-block/*
+randi3-method-adaptiveBayesian/*
+.project
+.settings
+.idea*
+.idea/*
+*.iml
+.ensime
