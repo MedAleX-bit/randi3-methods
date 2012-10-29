@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.randi3</groupId>
     <artifactId>randi3-methods</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.9</version>
     <packaging>pom</packaging>
 
     <name>RANDI2 methods</name>
@@ -119,7 +119,7 @@
         <dependency>
             <groupId>org.randi3</groupId>
             <artifactId>randi3-core</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.9</version>
         </dependency>
 
         <dependency>
