@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.randi3</groupId>
     <artifactId>randi3-methods</artifactId>
-    <version>0.9</version>
+    <version>0.9.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>RANDI2 methods</name>
@@ -27,7 +27,7 @@
         <maven.compiler.source>1.5</maven.compiler.source>
         <maven.compiler.target>1.5</maven.compiler.target>
         <encoding>UTF-8</encoding>
-        <scala.version>2.9.1</scala.version>
+        <scala.version>2.9.2</scala.version>
     </properties>
 
 
@@ -119,13 +119,13 @@
         <dependency>
             <groupId>org.randi3</groupId>
             <artifactId>randi3-core</artifactId>
-            <version>0.9</version>
+            <version>0.9.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>org.scalaquery</groupId>
-            <artifactId>scalaquery_2.9.0-1</artifactId>
-            <version>0.9.5</version>
+            <artifactId>scalaquery_2.9.1-1</artifactId>
+            <version>0.10.0-M1</version>
         </dependency>
 
         <!-- Test -->
@@ -136,15 +136,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.scala-tools.testing</groupId>
-            <artifactId>specs_${scala.version}</artifactId>
-            <version>1.6.9</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.9.1</artifactId>
-            <version>2.0.M3</version>
+            <artifactId>scalatest_${scala.version}</artifactId>
+            <version>2.0.M4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
