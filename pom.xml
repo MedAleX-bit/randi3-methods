@@ -5,12 +5,12 @@
     <parent>
         <artifactId>randi3</artifactId>
         <groupId>org.randi3</groupId>
-        <version>0.9.1-SNAPSHOT</version>
+        <version>0.9.1</version>
     </parent>
 
     <groupId>org.randi3</groupId>
     <artifactId>randi3-methods</artifactId>
-    <version>0.9.1-SNAPSHOT</version>
+    <version>0.9.1</version>
     <packaging>pom</packaging>
 
     <name>RANDI2 methods</name>
@@ -42,13 +42,13 @@
         <dependency>
         <groupId>org.randi3</groupId>
         <artifactId>randi3-core</artifactId>
-        <version>0.9.1-SNAPSHOT</version>
+        <version>0.9.1</version>
     </dependency>
 
         <dependency>
             <groupId>org.randi3</groupId>
             <artifactId>randi3-core</artifactId>
-            <version>0.9.1-SNAPSHOT</version>
+            <version>0.9.1</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
