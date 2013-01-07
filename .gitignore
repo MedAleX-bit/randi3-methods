@@ -1,6 +1,9 @@
-randi3-method-complete/*
-randi3-method-block/*
-randi3-method-adaptiveBayesian/*
+randi3-method-complete*
+randi3-method-block*
+randi3-method-adaptveBayesian*
+randi3-method-truncated*
+randi3-method-WeiUrnDesign*
+logs*
 .project
 .settings
 .idea*
