@@ -1,8 +1,5 @@
-randi3-method-complete*
-randi3-method-block*
-randi3-method-adaptveBayesian*
-randi3-method-truncated*
-randi3-method-WeiUrnDesign*
+randi3-method*
+scalastyle-output.xml
 logs*
 .project
 .settings
