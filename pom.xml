@@ -30,6 +30,7 @@
         <module>randi3-method-block</module>
         <module>randi3-method-WeiUrnDesign</module>
         <module>randi3-method-minimization</module>
+        <module>randi3-method-adaptive</module>
   </modules>
 
 
