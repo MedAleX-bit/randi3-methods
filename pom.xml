@@ -26,7 +26,6 @@
 
     <modules>
         <module>randi3-method-complete</module>
-       <module>randi3-method-truncated</module>
         <module>randi3-method-block</module>
         <module>randi3-method-WeiUrnDesign</module>
         <module>randi3-method-minimization</module>
