@@ -5,12 +5,12 @@
     <parent>
         <artifactId>randi3</artifactId>
         <groupId>org.randi3</groupId>
-        <version>0.9.3-SNAPSHOT</version>
+        <version>0.9.3</version>
     </parent>
 
     <groupId>org.randi3</groupId>
     <artifactId>randi3-methods</artifactId>
-    <version>0.9.3-SNAPSHOT</version>
+    <version>0.9.3</version>
     <packaging>pom</packaging>
 
     <name>RANDI2 methods</name>
@@ -26,6 +26,7 @@
 
     <modules>
         <module>randi3-method-complete</module>
+        <module>randi3-method-truncated</module>
         <module>randi3-method-block</module>
         <module>randi3-method-WeiUrnDesign</module>
         <module>randi3-method-minimization</module>
@@ -43,13 +44,13 @@
         <dependency>
         <groupId>org.randi3</groupId>
         <artifactId>randi3-core</artifactId>
-        <version>0.9.3-SNAPSHOT</version>
+        <version>0.9.3</version>
     </dependency>
 
         <dependency>
             <groupId>org.randi3</groupId>
             <artifactId>randi3-core</artifactId>
-            <version>0.9.3-SNAPSHOT</version>
+            <version>0.9.3</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
